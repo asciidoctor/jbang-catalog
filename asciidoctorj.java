@@ -16,7 +16,7 @@
 
 import java.io.IOException;
 
-public class asciidoctorj_cli {
+public class asciidoctorj {
     public static void main(String[] args) throws IOException {
         org.asciidoctor.cli.jruby.AsciidoctorInvoker.main(args);
     }

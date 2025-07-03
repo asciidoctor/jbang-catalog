@@ -1,7 +1,7 @@
 {
   "aliases": {
-    "asciidoctorj-cli": {
-      "script-ref": "asciidoctorj_cli.java",
+    "asciidoctorj": {
+      "script-ref": "asciidoctorj.java",
       "description": "Run AsciidoctorJ 3.0"
     }
   }
