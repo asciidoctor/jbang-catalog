@@ -3,6 +3,10 @@
     "asciidoctorj": {
       "script-ref": "asciidoctorj.java",
       "description": "Run AsciidoctorJ 3.0"
+    },
+    "asciidoctorj-cli": {
+      "script-ref": "asciidoctorj_cli.java",
+      "description": "Run AsciidoctorJ 3.0"
     }
   }
 }
