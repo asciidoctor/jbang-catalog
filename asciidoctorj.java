@@ -39,7 +39,7 @@
 //DEPS org.jcommander:jcommander:2.0
 
 // https://mvnrepository.com/artifact/org.jruby/jruby-complete
-//DEPS org.jruby:jruby-complete:9.4.14.0
+//DEPS org.jruby:jruby-complete:9.4.8.0
 
 import java.io.IOException;
 
