@@ -30,7 +30,7 @@
 //DEPS org.asciidoctor:asciidoctorj-diagram-jsyntrax:1.38.2
 
 // https://mvnrepository.com/artifact/org.asciidoctor/asciidoctorj-pdf
-//DEPS org.asciidoctor:asciidoctorj-pdf:2.3.19
+//DEPS org.asciidoctor:asciidoctorj-pdf:2.3.21
 
 // https://mvnrepository.com/artifact/org.asciidoctor/asciidoctorj-revealjs
 //DEPS org.asciidoctor:asciidoctorj-revealjs:5.2.0
