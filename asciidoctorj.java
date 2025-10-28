@@ -1,5 +1,3 @@
-///usr/bin/env jbang "$0" "$@" ; exit $?
-
 // The same list of JARs that appear in the asciidoctorj shell script
 
 //DEPS org.asciidoctor:asciidoctorj:3.0.0
@@ -16,10 +14,13 @@
 // --DEPS com.beust:jcommander:1.82
 // --DEPS org.jruby:jruby-complete:9.4.8.0
 
+//JAVA 11+
+
 import java.io.IOException;
+import org.asciidoctor.cli.jruby.AsciidoctorInvoker;
 
 public class asciidoctorj {
     public static void main(String[] args) throws IOException {
-        org.asciidoctor.cli.jruby.AsciidoctorInvoker.main(args);
+        AsciidoctorInvoker.main(args);
     }
 }
