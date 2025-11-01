@@ -9,7 +9,7 @@
 //DEPS org.asciidoctor:asciidoctorj-diagram-ditaamini:1.0.3
 //DEPS org.asciidoctor:asciidoctorj-diagram-plantuml:1.2025.3
 //DEPS org.asciidoctor:asciidoctorj-diagram-jsyntrax:1.38.2
-//DEPS org.asciidoctor:asciidoctorj-pdf:2.3.21
+//DEPS org.asciidoctor:asciidoctorj-pdf:2.3.23
 //DEPS org.asciidoctor:asciidoctorj-revealjs:5.2.0
 // --DEPS com.beust:jcommander:1.82
 // --DEPS org.jruby:jruby-complete:9.4.8.0
