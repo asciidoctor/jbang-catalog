@@ -1,5 +1,6 @@
-// The same list of JARs that appear in the asciidoctorj shell script
+///usr/bin/env jbang "$0" "$@" ; exit $?
 
+// The same list of JARs that appear in the asciidoctorj shell script
 //DEPS org.asciidoctor:asciidoctorj:3.0.0
 //DEPS org.asciidoctor:asciidoctorj-api:3.0.0
 //DEPS org.asciidoctor:asciidoctorj-cli:3.0.0
@@ -11,6 +12,8 @@
 //DEPS org.asciidoctor:asciidoctorj-diagram-jsyntrax:1.38.2
 //DEPS org.asciidoctor:asciidoctorj-pdf:2.3.23
 //DEPS org.asciidoctor:asciidoctorj-revealjs:5.2.0
+
+// Exclude these JARs, JBang will load then automatically
 // --DEPS com.beust:jcommander:1.82
 // --DEPS org.jruby:jruby-complete:9.4.8.0
 
