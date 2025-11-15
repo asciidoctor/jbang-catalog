@@ -1,9 +1,9 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 
 // The same list of JARs that appear in the asciidoctorj shell script
-//DEPS org.asciidoctor:asciidoctorj:3.0.0
-//DEPS org.asciidoctor:asciidoctorj-api:3.0.0
-//DEPS org.asciidoctor:asciidoctorj-cli:3.0.0
+//DEPS org.asciidoctor:asciidoctorj:3.0.1
+//DEPS org.asciidoctor:asciidoctorj-api:3.0.1
+//DEPS org.asciidoctor:asciidoctorj-cli:3.0.1
 //DEPS org.asciidoctor:asciidoctorj-epub3:2.2.0
 //DEPS org.asciidoctor:asciidoctorj-diagram:3.0.1
 //DEPS org.asciidoctor:asciidoctorj-diagram-batik:1.17
