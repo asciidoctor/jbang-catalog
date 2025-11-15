@@ -14,8 +14,8 @@
 //DEPS org.asciidoctor:asciidoctorj-revealjs:5.2.0
 
 // Exclude these JARs, JBang will load then automatically
-// --DEPS com.beust:jcommander:1.82
-// --DEPS org.jruby:jruby-complete:9.4.8.0
+// --DEPS com.beust:jcommander:2.0
+// --DEPS org.jruby:jruby-complete:9.4.14.0
 
 //JAVA 11+
 
