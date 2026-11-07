@@ -2,3 +2,12 @@
 java = "temurin-21"
 jbang = "latest"
 
+[tasks.update-dependencies]
+run = """
+rm -f -r asciidoctorj
+jbang export maven asciidoctorj.java
+cd asciidoctorj
+./mvnw versions:display-dependency-updates
+cd ..
+rm -f -r asciidoctorj
+"""
