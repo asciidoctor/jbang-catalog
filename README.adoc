@@ -1,0 +1,43 @@
+= jbang-catalog
+
+The main JBang script in this repository is `asciidoctorj.java` providing equivalent functionality to the `asciidoctorj` command line tool.
+
+With JBang and the `asciidoctorj.java` script, Asciidoctor can be run without installing it first. The script will download the required dependencies and run the Asciidoctor tool.
+
+The following command will run Asciidoctor and display the version information:
+
+[source, bash]
+----
+jbang asciidoctorj@asciidoctor -V
+----
+----
+AsciidoctorJ 3.0.1 (Asciidoctor 2.0.26) [https://asciidoctor.org]
+Runtime Environment: jruby 9.4.14.0 (3.1.7)
+----
+
+JBang is suppported on Linux, macOS and Windows. For more information about JBang, please visit the https://www.jbang.dev/[JBang website].
+
+== Generating HTML Output
+
+[source,bash]
+----
+jbang run asciidoctorj@asciidoctor -b html5 example.adoc
+----
+== Generating PDF Output
+
+[source,bash]
+----
+jbang run asciidoctorj@asciidoctor -b pdf example.adoc
+----
+
+== Generating Revealjs Output
+
+[source,bash]
+----
+jbang run asciidoctorj@asciidoctor \
+    -r asciidoctor-revealjs \
+    -r asciidoctor-diagram \
+    -b revealjs \
+    -a revealjsdir=https://cdn.jsdelivr.net/npm/reveal.js@6 \
+    presentation.adoc
+----
